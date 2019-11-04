@@ -1,0 +1,46 @@
+body {
+    font-family: Work Sans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #5d5d5d;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.navbar .logo{
+    width: 30%;
+}
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+
+}
+.hero-section {
+    padding-top: 50px;
+}
+.hero-section h1 {
+    width: 65%;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
+    line-height: 50px;
+    font-size: 30px;
+}
+.hero-section a {
+    color: #F26101;
+    text-decoration: none;
+}
