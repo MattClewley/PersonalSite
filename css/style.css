@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+	padding-top: 20px;
 }
 .navbar .logo{
     width: 30%;
@@ -43,4 +44,19 @@ body {
 .hero-section a {
     color: #F26101;
     text-decoration: none;
+}
+.workexp {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.leftwork {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.rightwork {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
 }
