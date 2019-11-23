@@ -60,3 +60,51 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.work-image{
+	width: 30%;
+}
+.work-image img {
+	width: 100%;
+	height: auto;
+	transition: all .2s ease-in-out;
+}
+.work-image img:hover {
+	transform: translateY(-2px);
+}
+#projects {
+	background: #fbfbfb;
+}
+#projects h4 {
+	text-align: center;
+}
+.featuredwork {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.project{
+	width: 40%;
+	margin: 20px 0px 20px 0px;
+}
+.colored-background1 {
+	width: 100%;
+	background-color: #9D0E00;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colored-background2 {
+	width: 100%;
+	background-color: #FFA700;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-name {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-color: #ffffff;
+}
