@@ -108,3 +108,6 @@ body {
 	padding: 10px 0px 10px 0px;
 	background-color: #ffffff;
 }
+.project img {
+	width: 80%;
+}
