@@ -1,0 +1,19 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "personal site to display projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattClewley/PersonalSite.git"
+  },
+  "author": "matt clewley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattClewley/PersonalSite/issues"
+  },
+  "homepage": "https://github.com/MattClewley/PersonalSite#readme"
+}
