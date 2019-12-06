@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node your-script.js"
+    "start": "index.js"
   },
   "name": "personalsite",
   "version": "1.0.0",
