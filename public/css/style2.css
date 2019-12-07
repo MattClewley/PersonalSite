@@ -1,1 +1,113 @@
+body {
+    font-family: Work Sans,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #5d5d5d;
+    -webkit-font-smoothing: antialiased;
+}
 
+.top-section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+	padding-top: 20px;
+}
+.navbar .logo{
+    width: 30%;
+}
+.rightnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+
+}
+.hero-section {
+    padding-top: 50px;
+}
+.hero-section h1 {
+    width: 65%;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
+    line-height: 50px;
+    font-size: 30px;
+}
+.hero-section a {
+    color: #F26101;
+    text-decoration: none;
+}
+.workexp {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.leftwork {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.rightwork {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.work-image{
+	width: 30%;
+}
+.work-image img {
+	width: 100%;
+	height: auto;
+	transition: all .2s ease-in-out;
+}
+.work-image img:hover {
+	transform: translateY(-2px);
+}
+#projects {
+	background: #fbfbfb;
+}
+#projects h4 {
+	text-align: center;
+}
+.featuredwork {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.project{
+	width: 40%;
+	margin: 20px 0px 20px 0px;
+}
+.colored-background1 {
+	width: 100%;
+	background-color: #9D0E00;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colored-background2 {
+	width: 100%;
+	background-color: #FFA700;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-name {
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	background-color: #ffffff;
+}
+.project img {
+	width: 80%;
+}
