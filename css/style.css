@@ -111,3 +111,9 @@ body {
 .project img {
 	width: 80%;
 }
+
+@media(max-width: 991px) {
+	.featuredwork {
+		flex-direction: column;
+	}
+}
