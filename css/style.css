@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     font-family: Work Sans,Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -110,6 +114,13 @@ body {
 }
 .project img {
 	width: 80%;
+}
+.rightnav a {
+	text-decoration: none;
+	color: #5d5d5d;
+}
+a:hover {
+	color: #FFA700;
 }
 
 @media(max-width: 991px) {
