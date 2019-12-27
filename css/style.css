@@ -80,6 +80,7 @@ body {
 }
 #projects h4 {
 	text-align: center;
+    padding-top: 30px;
 }
 .featuredwork {
 	display: flex;
@@ -91,9 +92,13 @@ body {
 	width: 40%;
 	margin: 20px 0px 20px 0px;
 }
+.project:hover {
+	transform: translateY(-2px);
+    box-shadow: 0 8px 14px rgba(93,93,93,.1);
+}
 .colored-background1 {
 	width: 100%;
-	background-color: #9D0E00;
+	background-color: #9DD0FF;
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -101,7 +106,7 @@ body {
 }
 .colored-background2 {
 	width: 100%;
-	background-color: #FFA700;
+	background-color: #B3A691;
 	height: 300px;
 	display: flex;
     justify-content: center;
