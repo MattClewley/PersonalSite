@@ -14,9 +14,12 @@ body {
 .top-section{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin-right: auto;
-    margin-left: auto;
+	margin-left: auto;
+	background-color: #333E67;
+	color: white;
+	padding-bottom: 10px;
 }
 
 .navbar {
@@ -24,6 +27,8 @@ body {
     flex-direction: row;
     justify-content: space-between; 
 	padding-top: 20px;
+	width:90%;
+	margin:auto;
 }
 .navbar .logo{
     width: 30%;
@@ -36,7 +41,10 @@ body {
 
 }
 .hero-section {
-    padding-top: 50px;
+	padding-top: 50px;
+	width: 90%;
+	margin: auto;
+
 }
 .hero-section h1 {
     width: 65%;
@@ -53,6 +61,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	width: 90%;
+    margin: auto;
 }
 .leftwork {
 	width: 50%;
@@ -98,7 +108,8 @@ body {
 }
 .colored-background1 {
 	width: 100%;
-	background-color: #9DD0FF;
+	/*background-color: #B3D5F2;*/
+	background-color: #333E67;
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -106,7 +117,7 @@ body {
 }
 .colored-background2 {
 	width: 100%;
-	background-color: #B3A691;
+	background-color: #F58683;
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -122,10 +133,11 @@ body {
 }
 .rightnav a {
 	text-decoration: none;
-	color: #5d5d5d;
+	/*color: #5d5d5d;*/
+	color: white;
 }
 a:hover {
-	color: #FFA700;
+	color: #F58583;
 }
 #greeting {
 	font-size: 30px;
@@ -138,6 +150,10 @@ a:hover {
 }
 .night {
 	color: darkslateblue;
+}
+.body-section {
+	width: 100%;
+    padding-bottom: 20px;
 }
 
 @media(max-width: 991px) {
