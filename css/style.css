@@ -87,6 +87,7 @@ body {
 }
 #projects {
 	background: #fbfbfb;
+	padding-bottom: 100px;
 }
 #projects h4 {
 	text-align: center;
@@ -108,8 +109,11 @@ body {
 }
 .colored-background1 {
 	width: 100%;
-	/*background-color: #B3D5F2;*/
-	background-color: #333E67;
+	/*background-color: #B3D5F2;
+	background-color: #333E67;*/
+	background: #1e3c72;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -117,7 +121,8 @@ body {
 }
 .colored-background2 {
 	width: 100%;
-	background-color: #F58683;
+	/*background-color: #F58683;*/
+	background-color: #1CD8D2;  /* fallback for old browsers */
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -155,6 +160,64 @@ a:hover {
 	width: 100%;
     padding-bottom: 20px;
 }
+.morework {
+	width: 90%;
+	margin: auto;
+}
+.morework h2 {
+	font-weight: lighter;
+}
+
+.rectangle {
+	display: flex;
+	flex-direction: row;
+	padding: 18px 5% 0px;
+    border-bottom: 1px solid #dadada;
+	margin: auto;
+	box-shadow: 0 0 0 rgba(93,93,93,.16);
+	transition: all .3s ease;
+}
+.rectangle:hover {
+	transform: translateY(-3px);
+    border-color: transparent;
+    box-shadow: 0 1px 6px rgba(93,93,93,.16);
+	/*background: linear-gradient(90deg,#2fe0c5,#3bdcc4,#2fe0c5);*/
+	/*background: #42275a;  
+	background: -webkit-linear-gradient(to right, #734b6d, #42275a);  
+	background: linear-gradient(to right, #734b6d, #42275a); */
+	background: #1e3c72;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.rect-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 44%;
+}
+.rect-secondary {
+	display: flex;
+	width:44%;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+.proj-title {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+.proj-exp {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.rect-secondary p {
+   bottom: 0;
+   font-size: 24px;
+}
+
 
 @media(max-width: 991px) {
 	.featuredwork {
