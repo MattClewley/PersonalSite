@@ -4,24 +4,8 @@
     <title>Matthew Clewley | Web Developer</title>
   </head>
   <body>
-    <script>
-      var myDate = new Date();
-      var hrs = myDate.getHours();
-  
-      var greet;
-  
-      if (hrs < 12)
-          greet = 'Good Morning';
-      else if (hrs >= 12 && hrs <= 17)
-          greet = 'Good Afternoon';
-      else if (hrs >= 17 && hrs <= 24)
-          greet = 'Good Evening';
-  
-      document.getElementById('lblGreetings').innerHTML =
-          '<b>' + greet + '</b> and welcome to Encodedna.com!';
-  </script>
-    <div class="top-section">
 
+    <div class="top-section">
       <div class="navbar">
         <div class="logo">Image Here</div>
         <div class="rightnav">
@@ -31,6 +15,7 @@
       </div>
 
       <div class="hero-section">
+        <p id="greeting"></p>
         <h1>I'm Matthew Clewley, a <a href="">developer</a> currently attending the University of Maryland and working for <a href="https://www.mojo.biz/" target="_blank">MOJO</a>.
         </h1>
       </div>
@@ -72,11 +57,29 @@
 			</div>
 		</div>
 
-
-
     </div>
 
-
   </body>
+  <script>
+    let myDate = new Date();
+    let hrs = myDate.getHours();
+    let greet;
+    let greetclass;
+    if (hrs < 12) {
+      greet = 'Good Morning';
+      greetclass = "morning";
+    }
+    else if (hrs >= 12 && hrs <= 17) {
+      greet = 'Good Afternoon';
+      greetclass = "afternoon";
+    }
+    else if (hrs >= 17 && hrs <= 24) {
+      greet = 'Good Evening';
+      greetclass = "night";
+    }
+
+    document.getElementById('greeting').innerHTML =
+        '<b class=' + greetclass + '>' + greet + '</b> and welcome to my site!';
+</script>
 </html>
 
