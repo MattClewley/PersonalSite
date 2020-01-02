@@ -115,7 +115,7 @@ body {
 .colored-background1 {
 	width: 100%;
 	/*background-color: #B3D5F2;*/
-	background-color: #F67812;
+	background-color: #E8D8B4;
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@ body {
 .colored-background2 {
 	width: 100%;
 	/*background-color: #F58683;*/
-	background-color: #203F50; 
+	background-color: #C74E45; 
 	height: 300px;
 	display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ body {
 	color: #5d5d5d;
 }
 a:hover {
-	color: #6BF3FF;
+	color: #C74E45;
 }
 #greeting {
 	font-size: 30px;
@@ -182,13 +182,13 @@ a:hover {
 	transform: translateY(-3px);
     border-color: transparent;
     box-shadow: 0 1px 6px rgba(93,93,93,.16);
-	/*background: #1e3c72;
-	background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  
-	background: linear-gradient(to right, #2a5298, #1e3c72); */
-	background: #6BF3FF; 
-	/*background: -webkit-linear-gradient(to right, #F09819, #FF512F); 
-	background: linear-gradient(to right, #F09819, #FF512F); */
+	/*background: #6BF3FF; super blue
+	background: #FFD674; super yellow*/
+	background: #E8D8B4;
     color: #fff;
+}
+.rectangle2:hover {
+	background: #C74E45 !important;
 }
 .rectangle:hover p {
 	color: white;
@@ -236,7 +236,7 @@ a:hover {
     font-weight: lighter;
 }
 .talk a{
-	color: #6BF3FF;
+	color: #C74E45;
 	text-decoration: none;
 }
 .talk a:hover {
@@ -256,7 +256,7 @@ a:hover {
 	text-decoration: none;
 }
 .links p:hover {
-	color: #6BF3FF;
+	color: #E8D8B4;
 }
 
 
