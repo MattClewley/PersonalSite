@@ -131,10 +131,10 @@ a:hover {
 	font-size: 30px;
 }
 .morning {
-	color: salmon;
+	color: rgb(255,166,0);
 }
 .afternoon {
-	color: orange;
+	color: lightskyblue;
 }
 .night {
 	color: darkslateblue;
