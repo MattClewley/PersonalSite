@@ -10,6 +10,40 @@ body {
     color: #5d5d5d;
     -webkit-font-smoothing: antialiased;
 }
+.projecthead {
+	height: 300px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+	flex-direction: column;
+	color: white;
+}
+.description {
+	font-size: 1.3rem;
+}
+.main-content {
+	width:80%;
+	margin:auto;
+}
+.project-image img{
+	height: 200px;
+	width:450px;
+}
 .logo img {
 	max-width:100%;
 	max-height:100%;
@@ -107,10 +141,13 @@ body {
 .project{
 	width: 40%;
 	margin: 20px 0px 20px 0px;
+	text-decoration:none;
+	color: #5d5d5d;
 }
 .project:hover {
 	transform: translateY(-2px);
-    box-shadow: 0 8px 14px rgba(93,93,93,.1);
+	box-shadow: 0 8px 14px rgba(93,93,93,.1);
+	color: #5d5d5d;
 }
 .colored-background1 {
 	width: 100%;
