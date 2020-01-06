@@ -1,5 +1,15 @@
 
 <head>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Matthew Clewley | Web Developer</title>
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
@@ -11,7 +21,7 @@
             <a href="/"><img src="images/favicon.png"></a>
           </div>
           <div class="rightnav">
-            <div><a href="#projects">Work</a></div>
+            <div><a href="/#projects">Work</a></div>
             <div><a href="#contact">Contact</a></div>
           </div>
         </div>
@@ -57,4 +67,6 @@
 
 
     </div>
+    <br />
+    <div id="footer"></div>    
 </body>
