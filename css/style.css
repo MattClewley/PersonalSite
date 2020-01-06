@@ -173,7 +173,9 @@ body {
 	background-color: #ffffff;
 }
 .project img {
-	width: 80%;
+	max-width: 80%;
+	width: auto;
+	max-height: 80%;
 }
 .rightnav a {
 	text-decoration: none;
