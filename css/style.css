@@ -33,12 +33,40 @@ body {
 	flex-direction: column;
 	color: white;
 }
+.projectheadalt {
+	height: 300px;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+	flex-direction: column;
+	color: mintcream;
+}
+.projectheadalt h1 {
+	padding-left: 50px;
+}
 .description {
 	font-size: 1.3rem;
 }
 .main-content {
 	width:80%;
 	margin:auto;
+}
+.main-content h2 {
+	text-align: center;
+	font-weight: lighter;
+	text-decoration: underline;
 }
 .project-image img{
 	height: 200px;
