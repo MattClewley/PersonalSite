@@ -72,6 +72,7 @@
 <script language="javascript" type="text/javascript">
     let scrt_var = 1; 
     let urlz = window.location.href;
+    let style;
     let lastslash = urlz.match(/\/([^\/]+)\/?$/)[1];
     let finalurl = lastslash.charAt(7);
     var indexed = parseInt(finalurl, 10);
@@ -83,6 +84,8 @@
     }
     else if(indexed == 1 && indexed < 4) {
         scrt_var_next = indexed + 1;
+        scrt_var_prev = indexed - 1;
+        document.getElementById("prev").setAttribute("class", "prevgone");
     }
     else if(indexed == 4 && indexed != 1){
         scrt_var_prev = indexed - 1;
@@ -97,14 +100,14 @@
     <!--<a href="project" onclick="location.href=this.href+scrt_var +'.html';return false;">Link</a>-->
 
     <div class="moreproj">
-        <a href="project" onclick="location.href=this.href+scrt_var_prev +'.html';return false;" class="previous">
+        <a href="project" onclick="location.href=this.href+scrt_var_prev +'.html';return false;" id="prev" class="previous" style="pointer-events: none !important;">
                 <p>Previous Project</p>
                 <img src="images/arrowleft.png">
         </a>
 
         <div class="vertical-line"></div>
 
-        <a href="project" onclick="location.href=this.href+scrt_var_next +'.html';return false;" class="next">
+        <a href="project" id="next" onclick="location.href=this.href+scrt_var_next +'.html';return false;" class="next">
                 <p>Next Project</p>
                 <img src="images/arrowright.png">
         </a>
