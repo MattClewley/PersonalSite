@@ -377,6 +377,25 @@ a:hover {
 
 @media(max-width: 991px) {
 	.featuredwork {
-		flex-direction: column;
+		flex-direction: row;
 	}
+	.rectangle{
+		border-color: transparent;
+		box-shadow: 0 1px 6px rgba(93,93,93,.16);
+		background: #E8D8B4;
+		color: #fff;
+	}
+	.rectangle p {
+		color: white;
+	}
+	.rectangle2 {
+		background: #C74E45 !important;
+	}
+	.talk {
+		width: 60%;
+	}
+	.hero-section h1 {
+		width: 100%;
+	}
+
 }
