@@ -408,4 +408,8 @@ a:hover {
 	.links {
 		width: 50%;
 	}
+	.project-image img {
+		max-width: 100%;
+		height: auto;
+	}
 }
