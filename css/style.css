@@ -105,9 +105,9 @@ body {
 	flex-direction: column;
 	color: mintcream;
 }
-.projectheadalt h1 {
+/*.projectheadalt h1 {
 	padding-left: 50px;
-}
+}*/
 .description {
 	font-size: 1.3rem;
 }
@@ -412,4 +412,16 @@ a:hover {
 		max-width: 100%;
 		height: auto;
 	}
+	.work-image {
+		width: 75%;
+	}
+}
+@media (max-width: 530px) {
+	.talk {
+		width: 80%;
+	}
+	.links {
+		width: 80%;
+	}
+
 }
