@@ -10,6 +10,10 @@ body {
     color: #5d5d5d;
     -webkit-font-smoothing: antialiased;
 }
+.logo img:hover {
+	transform: translateY(-3px);
+    opacity: 0.8;
+}
 .moreproj {
 	display:flex;
 	flex-direction: row;
