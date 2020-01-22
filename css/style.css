@@ -399,3 +399,9 @@ a:hover {
 	}
 
 }
+
+@media (max-width: 767px) {
+	.links {
+		min-width: 50%;
+	}
+}
