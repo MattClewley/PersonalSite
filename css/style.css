@@ -85,6 +85,10 @@ body {
 	flex-direction: column;
 	color: white;
 }
+.homepagehead {
+	background-position: 50% 100%;
+	text-align: inherit;
+}
 .projectheadalt {
 	height: 300px;
     height: 500px;
@@ -122,7 +126,8 @@ body {
 }
 .project-image img{
 	height: 200px;
-	width:450px;
+	/*width:450px;*/
+	width: auto;
 }
 .logo img {
 	max-width:100%;
@@ -173,8 +178,12 @@ body {
     font-size: 30px;
 }
 .hero-section a {
-    color: #F26101;
+	/*color: #F26101;*/
+	color: lightskyblue;
     text-decoration: none;
+}
+.hero-section a:hover {
+	color: #E8D8B4;
 }
 .workexp {
 	display: flex;
