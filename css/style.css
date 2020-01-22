@@ -12,7 +12,7 @@ body {
 }
 .logo img:hover {
 	transform: translateY(-3px);
-    opacity: 0.8;
+    opacity: 0.8; 
 }
 .moreproj {
 	display:flex;
