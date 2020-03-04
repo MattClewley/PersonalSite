@@ -435,5 +435,24 @@ a:hover {
 	.links {
 		width: 80%;
 	}
+	.project {
+		width: 90%;
+	}
+	.rectangle {
+		display: flex;
+		flex-direction: column;
+	}
+	.rect-main {
+		width: 100%;
+	}
+	.rect-secondary {
+		width: 100%;
+	}
+	#projects {
+		padding-bottom: 20px;
+	}
+	.rightnav {
+		width: 60%;
+	}
 
 }
